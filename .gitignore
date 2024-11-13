@@ -33,3 +33,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# CDK
+infra/cdk.out/
+.open-next/
+
+# AWS
+.aws-sam/
+.env.local
+
+# Build
+dist/
+build/
